@@ -1,5 +1,4 @@
 import { ReactNode } from 'react'
-import { createSolutionBuilder } from 'typescript';
 import { classNames } from 'utils'
 
 export type ColumnProp = {
