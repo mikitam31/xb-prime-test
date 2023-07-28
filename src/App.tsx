@@ -1,8 +1,9 @@
 import { Profile } from 'pages'
+import customers from 'data/customers.json'
 
 const App = () => {
   return (
-    <Profile />
+    <Profile customer={ customers[0] } />
   );
 }
 

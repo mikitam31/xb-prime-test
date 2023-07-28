@@ -11,13 +11,13 @@ export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 const backgroundMap: Record<VariantTypes, string> = {
   primary: 'bg-primary',
   secondary: 'bg-secondary',
-  default: 'bg-white'
+  default: 'bg-transparent'
 }
 
 const textMap: Record<VariantTypes, string> = {
   primary: 'text-white',
   secondary: 'text-white',
-  default: 'text-primary'
+  default: 'text-secondary'
 }
 
 export const Button = ({ className = '', disabled, variant = 'default', onClick, ...props }: ButtonProps) => {
